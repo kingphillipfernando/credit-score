@@ -1,4 +1,4 @@
-
+name: tests
 on:
   push:
     branches:
@@ -47,3 +47,4 @@ jobs:
 
       - name: Tests
         run: ./vendor/bin/pest
+
